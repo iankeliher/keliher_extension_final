@@ -1,0 +1,16 @@
+{
+  "name": "Alternate Cooper Union Timelines",
+  "description": "Several Different Timelines",
+  "version": "0.0.1",  
+  "content_scripts": [
+    {
+      "matches": ["http://cooper.edu/*"],
+      "css": ["keliher_final.css"],
+      "js": ["jquery.js", "keliher_final.js"]
+    }
+  ],
+  "manifest_version": 2,
+  "icons":{
+  
+  }
+}
