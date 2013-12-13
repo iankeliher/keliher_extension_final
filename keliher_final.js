@@ -55,7 +55,7 @@ $(document).ready(function(){
 			"h1":"A Warm Night in Spite of Chilly Weather",
 			"content":"Donors and current students mingled to celebrate The Cooper Fund Leadership Circle, a new program promoting major gifts to The Cooper Union",
 			"more":"Meow",
-			//"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
+			"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_fireplace.png"
 		},
 		//3
 		{
