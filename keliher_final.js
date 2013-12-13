@@ -43,39 +43,46 @@ $(document).ready(function(){
 	var newData = [
 		//1
 		{
-			"h1":"cats take over the sun!",
+			"h1":"Meet Professor Meow-berg",
 			"content":"Stately, plump Buck Mulligan stands at the top of the stairs and looks down upon Stephen Daedelus. Something about tacos.",
-			"more":"Chips, Ahoy",
-			"image":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg",
-			"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
+			"more":"Meow",
+			"image":"img/meow_berg.png",
+			//"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
 
 		},
 		//2
 		{
-			"h1":"cats take over the sun!",
-			"content":"Stately, plump Buck Mulligan stands at the top of the stairs and looks down upon Stephen Daedelus. Something about tacos.",
-			"more":"Chips, Ahoy",
-			"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
+			"h1":"A Warm Night in Spite of Chilly Weather",
+			"content":"Donors and current students mingled to celebrate The Cooper Fund Leadership Circle, a new program promoting major gifts to The Cooper Union",
+			"more":"Meow",
+			//"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
 		},
 		//3
 		{
 			"h1":"cats take over the sun!",
 			"content":"Stately, plump Buck Mulligan stands at the top of the stairs and looks down upon Stephen Daedelus. Something about tacos.",
-			"more":"Chips, Ahoy",
+			"more":"Meow",
 			"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
 		},
 		//4
 		{
-			"h1":"cats take over the sun!",
-			"content":"Stately, plump Buck Mulligan stands at the top of the stairs and looks down upon Stephen Daedelus. Something about tacos.",
-			"more":"Chips, Ahoy",
-			"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
+			"h1":"A Major Award for Prof. Banana's Africa Project",
+			"content":"The annual Buckminster Fuller Challenge corporate sponsor, Interface Inc., announced a surprise Support Award for PITCHAfrica's effort to develop high-yeild rainwater harvesting sites that double as multi-purpose school buildings in rural Africa",
+			"more":"Meow",
+			//"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
 		},
 		//5
 		{
-			"h1":"cats take over the sun!",
+			"h1":"Cooper Engineering Team Wins Top Prize in IEEE Student Competition",
+			"content":"Victor Chen, a senior, and Kyung Min Lee (EE'13) have won the first-ever IEEE ComSoc Student Competion with an inexpensive device that transmits data through LED lights",
+			"more":"Meow",
+			"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
+		},
+		//6
+		{
+			"h1":"Architecture and Urban Studies From A New Angle",
 			"content":"Stately, plump Buck Mulligan stands at the top of the stairs and looks down upon Stephen Daedelus. Something about tacos.",
-			"more":"Chips, Ahoy",
+			"more":"Meow",
 			"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
 		}
 	];
