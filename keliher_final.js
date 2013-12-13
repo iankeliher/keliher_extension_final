@@ -43,8 +43,8 @@ $(document).ready(function(){
 	var newData = [
 		//1
 		{
-			"h1":"Meet Professor Meow-berg",
-			"content":"Stately, plump Buck Mulligan stands at the top of the stairs and looks down upon Stephen Daedelus. Something about tacos.",
+			"h1":"Meet The Deans: Teresa Meow-berg",
+			"content":"A talk with the new Dean of the Albert Nerken School of Engineering about her her vision for the school as well as her opinions on string",
 			"more":"Meow",
 			"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/blank.png",
 			"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/meow_berg_400800.png",
@@ -53,9 +53,9 @@ $(document).ready(function(){
 		//2
 		{
 			"h1":"A Warm Night in Spite of Chilly Weather",
-			"content":"Donors and current students mingled to celebrate The Cooper Fund Leadership Circle, a new program promoting major gifts to The Cooper Union",
+			"content":"Donors and current students mingled, discussing the new Cooper Fund program before promptly falling asleep in front of the fireplace",
 			"more":"Meow",
-			"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_fireplace.png"
+			"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_fireplace_sm.png"
 		},
 		//3
 		{
@@ -83,7 +83,7 @@ $(document).ready(function(){
 			"h1":"Architecture and Urban Studies From A New Angle",
 			"content":"Stately, plump Buck Mulligan stands at the top of the stairs and looks down upon Stephen Daedelus. Something about tacos.",
 			"more":"Meow",
-			"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
+			"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/Architecture_Cat.jpg"
 		}
 	];
 
@@ -140,6 +140,7 @@ $(document).ready(function(){
 //.slide.invert uses inline style to put the background image in...
 	
 console.log ("this is working");
+
 
 			
 			});
