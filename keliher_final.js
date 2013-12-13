@@ -66,10 +66,10 @@ $(document).ready(function(){
 		},
 		//4
 		{
-			"h1":"A Major Award for Prof. Banana's Africa Project",
-			"content":"The annual Buckminster Fuller Challenge corporate sponsor, Interface Inc., announced a surprise Support Award for PITCHAfrica's effort to develop high-yeild rainwater harvesting sites that double as multi-purpose school buildings in rural Africa",
+			"h1":"A Major Award for Prof. Banana's PAWS Project",
+			"content":"The annual Buckminster Fuller Challenge corporate sponsor, Foer Inc., announced a surprise Support Award for Professor Banana's PAWSinPAWS program, ridding the world of those annoying loud noises",
 			"more":"Meow",
-			//"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
+			"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_helmet_250.png"
 		},
 		//5
 		{
@@ -81,7 +81,7 @@ $(document).ready(function(){
 		//6
 		{
 			"h1":"Architecture and Urban Studies From A New Angle",
-			"content":"Stately, plump Buck Mulligan stands at the top of the stairs and looks down upon Stephen Daedelus. Something about tacos.",
+			"content":"A chat with renowned architectural critic and theorist Mr. Jangles about his new book <em>Scaffolding Beyond the Postmodern: Contemporary Brazilian Architecture</em>",
 			"more":"Meow",
 			"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/Architecture_Cat.jpg"
 		}
