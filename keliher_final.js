@@ -46,7 +46,7 @@ $(document).ready(function(){
 			"h1":"Meet Professor Meow-berg",
 			"content":"Stately, plump Buck Mulligan stands at the top of the stairs and looks down upon Stephen Daedelus. Something about tacos.",
 			"more":"Meow",
-			"image":"img/meow_berg.png",
+			"image":"https://github.com/iankeliher/keliher_extension_final/blob/master/img/meow_berg.png?raw=true",
 			//"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
 
 		},
