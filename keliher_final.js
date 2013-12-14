@@ -34,9 +34,12 @@ $(document).ready(function(){
 	$(".cats_button a").prepend("CATS");
 	$(".evil_button a").prepend("EVIL");
 	$(".amazing_button a").prepend("AMAZING");
-	$(".corgis_button a").prepend("CORGIS");
+	$(".corgis_button a").prepend("FREE COOPER");
 	$(".choose_timeline a").prepend("CHOOSE YOUR TIMELINE");
 
+	//Change main nav options
+	$(".mainnav .main ul li").empty();
+	
 	
 
 	//establish data for slides
@@ -59,10 +62,10 @@ $(document).ready(function(){
 		},
 		//3
 		{
-			"h1":"cats take over the sun!",
-			"content":"Stately, plump Buck Mulligan stands at the top of the stairs and looks down upon Stephen Daedelus. Something about tacos.",
+			"h1":"Something happens. Hotplates",
+			"content":"TBTL is fun. Yerps.",
 			"more":"Meow",
-			"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
+			"image":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
 		},
 		//4
 		{
@@ -74,9 +77,9 @@ $(document).ready(function(){
 		//5
 		{
 			"h1":"Cooper Engineering Team Wins Top Prize in IEEE Student Competition",
-			"content":"Victor Chen, a senior, and Kyung Min Lee (EE'13) have won the first-ever IEEE ComSoc Student Competion with an inexpensive device that transmits data through LED lights",
+			"content":"Catbert, a senior, and Mittens (CE'14) have won the first-ever IEEE ComSoc Student Competion with an inexpensive device that can constantly entertain you with laserpointers",
 			"more":"Meow",
-			"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
+			"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/Laser_pointers_400800.png"
 		},
 		//6
 		{
@@ -100,22 +103,7 @@ $(document).ready(function(){
 		$(".fancy-"+index+" .content p").html(data.content);
 		$(".fancy-"+index+" .more-arrow span").html(data.more);
 		$(".fancy-"+index+" .image img").attr("src", data.image);
-		
-		/*
-		//get rid of background images
-		$(".fancy-"+index).css("background-image", "");
-		
-		//replace background images
-		$(".fancy1 body, .fancy3 body, .fancy5 body").css("background-image", data.background);
-		*/
-		
-		
-		//select style
-		//make style text
-		//manipulate text
-		//replace source
-		//re-inject manipulated style into attr
-		
+			
 		
 		//makes the background image work
 		//+- adds in content
@@ -125,15 +113,50 @@ $(document).ready(function(){
 		styleText += "background-image: url("+data.background+");";
 		$(".fancy-"+index).attr("style", styleText);
 				
-
+		});
+	
+	
 		
-
-
+		//controlling white text
+		$(".fancy-4 .body h1").attr("style", "color: white;");
+		$(".fancy-0 .body h1").attr("style", "color: white;");
+		$(".fancy-5 .body h1").attr("style", "color: white;");
+		
+		
 		/*
 		var noBackground= $(styleText).prop("background-image");
 		console.log(noBackground);
 		*/
 		
+		
+		
+		
+		
+		
+		//Upcoming Event Section
+		
+		var dataSub = [
+			{
+				"h2":"hey this worked",
+				"h3":"I can't believe it"
+			},
+			{
+				"h2":"did it work",
+				"h3":"Well, yeah, it did the first time"
+			}
+		];
+		
+		var uE = $('#upcoming-events');
+	uE.each(function(index, element){
+	
+		console.log(element);
+		$(element).addClass("upcoming-"+index);
+		
+		var upComing = dataSub[index];
+		
+		$(".upcoming-"+index+" h2").html(upComing.h2);
+		$(".upcoming-"+index+" h3").html(upComing.h3);
+		$(".upcoming-"+index+" .image img").attr("src", upComing.image);
 		
 	});
 	
