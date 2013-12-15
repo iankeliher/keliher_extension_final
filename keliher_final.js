@@ -33,13 +33,32 @@ $(document).ready(function(){
 	//input new titles
 	$(".cats_button a").prepend("CATS");
 	$(".evil_button a").prepend("EVIL");
-	$(".amazing_button a").prepend("AMAZING");
+	//$(".amazing_button a").prepend("AMAZING"); taken out b/c probably not going to have time
 	$(".corgis_button a").prepend("FREE COOPER");
 	$(".choose_timeline a").prepend("CHOOSE YOUR TIMELINE");
 
 	//Change main nav options
-	$(".mainnav .main ul li").empty();
 	
+	var mainNav = $("#mainnav .main ul li a");
+	
+	$(mainNav).each(function(index, element){
+		console.log("mainNav is working");
+	//	console.log(element);
+		var nameTags = element;
+		
+		
+		$(nameTags).addClass("nameTag-"+ index);
+		console.log(nameTags);
+		
+	
+	var whatIs = typeof mainNav;
+	console.log(whatIs);
+	//main nav is an object in w/ array...
+	
+	});
+	
+	
+	//CATS TIMELINE!!!
 	
 
 	//establish data for slides
@@ -132,7 +151,6 @@ $(document).ready(function(){
 		
 		
 		
-		
 		//Upcoming Event Section
 		
 		var dataSub = [
@@ -162,7 +180,7 @@ $(document).ready(function(){
 	
 //.slide.invert uses inline style to put the background image in...
 	
-console.log ("this is working");
+console.log("this is working");
 
 
 			
