@@ -195,8 +195,8 @@ $(document).ready(function(){
 	
 		var dataSub = [
 			{
-				"h2":"hey this worked",
-				"h3":"I can't believe it",
+				"h2":"Yarn Ball Play Session",
+				"h3":"A organized forum to discuss both the physical and philologic relationship of a paw to a ball of yarn",
 				"image":"http://seattletimes.com/ABPub/2008/01/08/2004113627.jpg"
 			},
 			{
