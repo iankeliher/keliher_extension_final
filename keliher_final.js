@@ -247,6 +247,12 @@ $(document).ready(function(){
 			},
 		];
 		
+		
+		//change little images
+		$("#history .images img:nth-child(1)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/peter_cooper%20cat.png");
+
+		
+		
 		//define belt & loop thru
 		var belt = $('#belt div');
 		
