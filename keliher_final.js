@@ -306,17 +306,17 @@ $(document).ready(function(){
 			},
 			//4
 			{
-				"h1":"Skynet Makes Major Donation",
-				"content":"The annual Buckminster Fuller Challenge corporate sponsor, Foer Inc., announced a surprise Support Award for Professor Banana's PAWSinPAWS program, ridding the world of those annoying loud noises",
+				"h1":"Cooper Union overtakes NYU in establishing overseas campuses",
+				"content":"In the transparent attempt to make money off of rich foreigners, CU has finally opened up a campus in Antarctica, looking to enroll wealthy Penguins",
 				"more":"Evil",
-				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_helmet_250.png"
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/arctic.png"
 			},
 			//5
 			{
-				"h1":"Skynet Makes Major Donation to Engineering School",
+				"h1":"Art School Awarded Government Grant For Dreaming of Destruction",
 				"content":" ",
 				"more":"Evil",
-				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/Laser_pointers_400800.png"
+				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cloud.jpg"
 			},
 			//6
 			{
@@ -355,7 +355,7 @@ $(document).ready(function(){
 	
 		
 		//controlling white text
-		$(".fancy-4 .body h1").attr("style", "color: white;");
+		$(".fancy-4 .body h1").attr("style", "color: black;");
 		$(".fancy-0 .body h1").attr("style", "color: white;");
 		$(".fancy-2 .body h1").attr("style", "color: white;");		
 		$(".fancy-5 .body h1").attr("style", "color: white;");
