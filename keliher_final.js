@@ -285,7 +285,7 @@ $(document).ready(function(){
 				"content":"A talk with the new Dean of the Nekren Trebla School of Engineering about her her vision for the school as well as her aspirations for world domination",
 				"more":"Evil",
 				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/blank.png",
-				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/meow_berg_400800.png",
+				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/evil_Dahlberg.png",
 
 			},
 			//2
@@ -420,6 +420,14 @@ $(document).ready(function(){
 			},
 		];
 		
+		
+		$("#history .images img:nth-child(1)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/peter_cooper_evil.png");
+		$("#history .images img:nth-child(2)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/peter_cooper_evil.png");
+		$("#history .images img:nth-child(3)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/peter_cooper_evil.png");
+		$("#history .images img:nth-child(4)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/peter_cooper_evil.png");
+		
+		
+		
 		//define belt & loop thru
 		var belt = $('#belt div');
 		
@@ -440,6 +448,7 @@ $(document).ready(function(){
 			localStorage.setItem("script","evil");
 
 		});
+		
 		
 	
 	};
