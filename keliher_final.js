@@ -96,6 +96,9 @@ $(document).ready(function(){
 	});
 	
 	
+	//establish location of image files
+	var chromeImages = chrome.extension.getURL("img/meow_berg_400800.png");
+	
 	
 	//CATS TIMELINE!!!
 	
@@ -124,7 +127,7 @@ $(document).ready(function(){
 				"h1":"Board of Trustees Enact Yarn Program",
 				"content":"TBTL is fun. Yerps.",
 				"more":"Meow",
-				"background":"http://3.bp.blogspot.com/_vqdW0BQpqXE/SR22MTv-m8I/AAAAAAAABTk/FT8hHq0uCi8/s400/luke+burbank,+motherfuckers.jpg"
+				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/yarn_400800.png"
 			},
 			//4
 			{
@@ -179,30 +182,23 @@ $(document).ready(function(){
 		//controlling white text
 		$(".fancy-4 .body h1").attr("style", "color: white;");
 		$(".fancy-0 .body h1").attr("style", "color: white;");
+		$(".fancy-2 .body h1").attr("style", "color: white;");		
 		$(".fancy-5 .body h1").attr("style", "color: white;");
-	
-	
-		/*
-		var noBackground= $(styleText).prop("background-image");
-		console.log(noBackground);
-		*/
-	
 	
 	
 	
 	
 		//Upcoming Event Section
-	
 		var dataSub = [
 			{
 				"h2":"Yarn Ball Play Session",
 				"h3":"A organized forum to discuss both the physical and philologic relationship of a paw to a ball of yarn",
-				"image":"http://seattletimes.com/ABPub/2008/01/08/2004113627.jpg"
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/yarn_86154.png"
 			},
 			{
-				"h2":"did it work",
-				"h3":"Well, yeah, it did the first time",
-				"image":"http://seattletimes.com/ABPub/2008/01/08/2004113627.jpg"
+				"h2":"Mittens 'Collective Dreaming'",
+				"h3":"Mittens' show 'Collective Dreaming' opens. A week-long installation of a projected sunbeam which is an examination of the collective unconscious.",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_sunbeam86154.png"
 			}
 		];
 		
@@ -220,11 +216,236 @@ $(document).ready(function(){
 			$(".upcoming-"+index+" h3").html(upComing.h3);
 			$(".upcoming-"+index+" img").attr("src", upComing.image);
 		
-			localStorage.setItem("script","cats");
+			
 	
 		});
 	
+		//lower belt section
+		var beltElements = [
+			{
+				"h2":"Irwin S Chanin School of Architecture",
+				"h3":"Lecture on <em>Scaffolding Beyond the Postmodern: Contemporary Brazilian Architecture</em>",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/Architecture_Cat.jpg"
+			},
+			{},
+			{
+				"h2":"School of Art",
+				"h3":"Senior Thesis Show: Sunbeams",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_sunbeam86154.png"
+			},
+			{},
+			{
+				"h2":"Albert Nerkin School of Engineering",
+				"h3":"Prof. Bananas takes top prize",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_helmet_250.png"
+			},
+			{},
+			{
+				"h2":"Faculties of Humanities and Social Sciences",
+				"h3":"Lecture Series: <em>Untying the Thread of Interconnection in Pynchon's</em> Gravity's Rainbow",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/yarn_400800.png"
+			},
+		];
+		
+		//define belt & loop thru
+		var belt = $('#belt div');
+		
+		belt.each(function(index, element){
+	
+			console.log(element);
+			$(element).addClass("belt-"+index);
+		
+			var beltData = beltElements[index];
+		
+			$(".belt-"+index+" h2").html(beltData.h2);
+			$(".belt-"+index+" h3").html(beltData.h3);
+			$(".belt-"+index+" img").attr("src", beltData.image);
+			$(".belt-"+index+" p").attr("src", beltData.par);
+		
+		//setItem must be set in loop for prefrences to hold
+		
+			localStorage.setItem("script","cats");
+
+		});
+		
+	
 	};
+	
+	
+	
+	//EVIL TIMELINE!!!
+	
+	var evil =function (){
+
+		//establish data for slides
+		var newData = [
+			//1
+			{
+				"h1":"Meet The Deans: Greblhad Aseret",
+				"content":"A talk with the new Dean of the Nekren Trebla School of Engineering about her her vision for the school as well as her aspirations for world domination",
+				"more":"Evil",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/blank.png",
+				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/meow_berg_400800.png",
+
+			},
+			//2
+			{
+				"h1":"A Warm Night in Spite of Chilly Weather",
+				"content":"Donors and current students mingled, discussing the new Cooper Fund program before promptly falling asleep in front of the fireplace",
+				"more":"Evil",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_fireplace_sm.png"
+			},
+			//3
+			{
+				"h1":"Board of Trustees Enact Yarn Program",
+				"content":"TBTL is fun. Yerps.",
+				"more":"Evil",
+				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/yarn_400800.png"
+			},
+			//4
+			{
+				"h1":"A Major Award for Prof. Banana's PAWS Project",
+				"content":"The annual Buckminster Fuller Challenge corporate sponsor, Foer Inc., announced a surprise Support Award for Professor Banana's PAWSinPAWS program, ridding the world of those annoying loud noises",
+				"more":"Evil",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_helmet_250.png"
+			},
+			//5
+			{
+				"h1":"Cooper Engineering Team Wins Top Prize in IEEE Student Competition",
+				"content":"Catbert, a senior, and Mittens (CE'14) have won the first-ever IEEE ComSoc Student Competion with an inexpensive device that can constantly entertain you with laserpointers",
+				"more":"Evil",
+				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/Laser_pointers_400800.png"
+			},
+			//6
+			{
+				"h1":"Architecture and Urban Studies From A New Angle",
+				"content":"A chat with renowned architectural critic and theorist Mr. Jangles about his new book <em>Beyond Evil and Evil: Building Mandroid</em>",
+				"more":"Evil",
+				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/Architecture_Cat.jpg"
+			}
+		];
+
+		//loop thru slides
+		var slides = $('#dl .slide');
+		slides.each(function(index, element){
+	
+			console.log(element);
+			$(element).addClass("fancy-"+index);
+		
+			var data = newData[index];
+		
+			$(".fancy-"+index+" h1").html(data.h1);
+			$(".fancy-"+index+" .content p").html(data.content);
+			$(".fancy-"+index+" .more-arrow span").html(data.more);
+			$(".fancy-"+index+" .image img").attr("src", data.image);
+			
+		
+			//makes the background image work
+			//+- adds in content
+			var styleText= $(".fancy-"+index).attr("style");
+			styleText = styleText.replace("background-image","invalid-background-image");
+		
+			styleText += "background-image: url("+data.background+");";
+			$(".fancy-"+index).attr("style", styleText);
+				
+		});
+	
+	
+		
+		//controlling white text
+		$(".fancy-4 .body h1").attr("style", "color: white;");
+		$(".fancy-0 .body h1").attr("style", "color: white;");
+		$(".fancy-2 .body h1").attr("style", "color: white;");		
+		$(".fancy-5 .body h1").attr("style", "color: white;");
+	
+	
+	
+	
+		//Upcoming Event Section
+		var dataSub = [
+			{
+				"h2":"Yarn Ball Play Session",
+				"h3":"A organized forum to discuss both the physical and philologic relationship of a paw to a ball of yarn",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/yarn_86154.png"
+			},
+			{
+				"h2":"Mittens 'Collective Dreaming'",
+				"h3":"Mittens' show 'Collective Dreaming' opens. A week-long installation of a projected sunbeam which is an examination of the collective unconscious.",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_sunbeam86154.png"
+			}
+		];
+		
+		//define upcoming events section & loop thru
+		var uE = $('#upcoming-events');
+		
+		uE.each(function(index, element){
+	
+			console.log(element);
+			$(element).addClass("upcoming-"+index);
+		
+			var upComing = dataSub[index];
+		
+			$(".upcoming-"+index+" h2").html(upComing.h2);
+			$(".upcoming-"+index+" h3").html(upComing.h3);
+			$(".upcoming-"+index+" img").attr("src", upComing.image);
+		
+			
+	
+		});
+	
+		//lower belt section
+		var beltElements = [
+			{
+				"h2":"Irwin S Chanin School of Architecture",
+				"h3":"Lecture on <em>Beyond Evil and Evil: Building Mandroid</em>",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/Architecture_Cat.jpg"
+			},
+			{},
+			{
+				"h2":"School of Art",
+				"h3":"Senior Thesis Show: Sunbeams",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_sunbeam86154.png"
+			},
+			{},
+			{
+				"h2":"Albert Nerkin School of Engineering",
+				"h3":"Prof. Bananas takes top prize",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_helmet_250.png"
+			},
+			{},
+			{
+				"h2":"Faculties of Humanities and Social Sciences",
+				"h3":"Lecture Series: <em>Untying the Thread of Interconnection in Pynchon's</em> Gravity's Rainbow",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/yarn_400800.png"
+			},
+		];
+		
+		//define belt & loop thru
+		var belt = $('#belt div');
+		
+		belt.each(function(index, element){
+	
+			console.log(element);
+			$(element).addClass("belt-"+index);
+		
+			var beltData = beltElements[index];
+		
+			$(".belt-"+index+" h2").html(beltData.h2);
+			$(".belt-"+index+" h3").html(beltData.h3);
+			$(".belt-"+index+" img").attr("src", beltData.image);
+			$(".belt-"+index+" p").attr("src", beltData.par);
+		
+		//setItem must be set in loop for prefrences to hold
+		
+			localStorage.setItem("script","evil");
+
+		});
+		
+	
+	};
+	
+	
+	
 	
 	//NORMAL TIMELINE
 	
@@ -245,12 +466,19 @@ $(document).ready(function(){
 		localStorage.setItem("script","normal");
 	});
 	
+	$(".evil_button").click(function(){
+		//evil();
+		localStorage.setItem("script","evil");
+	});
+	
 	var somethingState = localStorage.getItem("script");
 
 	if (somethingState === "cats") {
 		cats();
 	} else if (somethingState === "normal") {
 		normal();
+	} else if (somethingState === "evil") {
+		//evil();
 	}
 		
 		
