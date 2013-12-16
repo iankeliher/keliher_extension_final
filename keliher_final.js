@@ -467,7 +467,7 @@ $(document).ready(function(){
 	});
 	
 	$(".evil_button").click(function(){
-		//evil();
+		evil();
 		localStorage.setItem("script","evil");
 	});
 	
@@ -478,7 +478,7 @@ $(document).ready(function(){
 	} else if (somethingState === "normal") {
 		normal();
 	} else if (somethingState === "evil") {
-		//evil();
+		evil();
 	}
 		
 		
