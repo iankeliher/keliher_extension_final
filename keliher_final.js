@@ -309,7 +309,7 @@ $(document).ready(function(){
 				"h1":"Cooper Union overtakes NYU in establishing overseas campuses",
 				"content":"In the transparent attempt to make money off of rich foreigners, CU has finally opened up a campus in Antarctica, looking to enroll wealthy Penguins",
 				"more":"Evil",
-				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/arctic.png"
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/arctic_250.png"
 			},
 			//5
 			{
