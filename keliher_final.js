@@ -420,7 +420,7 @@ $(document).ready(function(){
 			{
 				"h2":"Faculties of Humanities and Social Sciences",
 				"h3":"Lecture Series: <em>Beyond Evil and Evil: Building Mandroid</em>",
-				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/burning%20forest.png"
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/mandroid%20blueprints.png"
 			},
 		];
 		
