@@ -281,6 +281,15 @@ $(document).ready(function(){
 		var newData = [
 			//1
 			{
+				"h1":"Transdimensional Portal Allows us to Welcome Kim Jong Un to the Darkest Timeline",
+				"content":"Kim Jong Un shook hands with Octopus Grigori upon exiting the Transdimensional Portal last Tuesday",
+				"more":"Evil",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/blank.png",
+				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/evil_kimjongun.png",
+
+			},
+			//2
+			{
 				"h1":"Meet The Deans: Greblhad Aseret",
 				"content":"A talk with the new Dean of the Nekren Trebla School of Engineering about her her vision for the school as well as her aspirations for world domination",
 				"more":"Evil",
@@ -288,31 +297,24 @@ $(document).ready(function(){
 				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/evil_Dahlberg.png",
 
 			},
-			//2
-			{
-				"h1":"A Warm Night in Spite of Chilly Weather",
-				"content":"Donors and current students mingled, discussing the new Cooper Fund program before promptly falling asleep in front of the fireplace",
-				"more":"Evil",
-				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_fireplace_sm.png"
-			},
 			//3
 			{
-				"h1":"Board of Trustees Enact Yarn Program",
-				"content":"TBTL is fun. Yerps.",
+				"h1":"153rd Anniversary of Evil Lincoln's Speech in the Meh Hall",
+				"content":"This year we celebrate the 153rd year since the speech of Evil Lincoln had led to the eradication of Spotted Owl",
 				"more":"Evil",
 				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/yarn_400800.png"
 			},
 			//4
 			{
-				"h1":"A Major Award for Prof. Banana's PAWS Project",
+				"h1":"Skynet Makes Major Donation",
 				"content":"The annual Buckminster Fuller Challenge corporate sponsor, Foer Inc., announced a surprise Support Award for Professor Banana's PAWSinPAWS program, ridding the world of those annoying loud noises",
 				"more":"Evil",
 				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_helmet_250.png"
 			},
 			//5
 			{
-				"h1":"Cooper Engineering Team Wins Top Prize in IEEE Student Competition",
-				"content":"Catbert, a senior, and Mittens (CE'14) have won the first-ever IEEE ComSoc Student Competion with an inexpensive device that can constantly entertain you with laserpointers",
+				"h1":"Skynet Makes Major Donation to Engineering School",
+				"content":" ",
 				"more":"Evil",
 				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/Laser_pointers_400800.png"
 			},
@@ -357,6 +359,7 @@ $(document).ready(function(){
 		$(".fancy-0 .body h1").attr("style", "color: white;");
 		$(".fancy-2 .body h1").attr("style", "color: white;");		
 		$(".fancy-5 .body h1").attr("style", "color: white;");
+		$(".fancy-0 .content p").attr("style", "color: white;");
 	
 	
 	
@@ -415,16 +418,16 @@ $(document).ready(function(){
 			{},
 			{
 				"h2":"Faculties of Humanities and Social Sciences",
-				"h3":"Lecture Series: <em>Untying the Thread of Interconnection in Pynchon's</em> Gravity's Rainbow",
+				"h3":"Lecture Series: <em>Enacting Eschaton</em>",
 				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/yarn_400800.png"
 			},
 		];
 		
 		
 		$("#history .images img:nth-child(1)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/peter_cooper_evil.png");
-		$("#history .images img:nth-child(2)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/peter_cooper_evil.png");
-		$("#history .images img:nth-child(3)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/peter_cooper_evil.png");
-		$("#history .images img:nth-child(4)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/peter_cooper_evil.png");
+		$("#history .images img:nth-child(2)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/evil_41cooper.png");
+		$("#history .images img:nth-child(3)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/evil_foundation.png");
+		$("#history .images img:nth-child(4)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/evil_lincoln.png");
 		
 		
 		
