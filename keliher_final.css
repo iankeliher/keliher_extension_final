@@ -5,3 +5,25 @@
 #whiteText {
 	color: white;
 }
+
+.internalMenu1 {
+	margin-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 13px;
+	letter-spacing: .02em;
+}
+
+.internalMenu1 li {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.internalMenu1 li a {
+	color: white;
+}
+
+
+.tab-3 {
+	padding-right: 0px;
+}
