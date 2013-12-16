@@ -42,6 +42,10 @@ $(document).ready(function(){
 	$(".choose_timeline a").prepend("CHOOSE YOUR TIMELINE");
 
 	
+	//Get Free Cooper Feed
+	
+	
+	
 	
 	//Change main nav options
 	
@@ -72,9 +76,9 @@ $(document).ready(function(){
 	
 	//change links
 	$(".main .nav1").attr("href","'http://www.nytimes.com/2013/05/11/business/how-cooper-unions-endowment-failed-in-its-mission.html?_r=0'");
-	$(".main .nav2").attr("href","'http://www.nytimes.com/2013/05/11/business/how-cooper-unions-endowment-failed-in-its-mission.html?_r=0'");
-	$(".main .nav3").attr("href","'http://www.nytimes.com/2013/05/11/business/how-cooper-unions-endowment-failed-in-its-mission.html?_r=0'");
-	$(".main .nav4").attr("href","'http://www.nytimes.com/2013/05/11/business/how-cooper-unions-endowment-failed-in-its-mission.html?_r=0'");
+	$(".main .nav2").attr("href","'https://twitter.com/FreeCooperUnion'");
+	$(".main .nav3").attr("href","'http://en.wikipedia.org/wiki/Cooper_Union'");
+	$(".main .nav4").attr("href","'http://whycooper.org/'");
 	
 	//Replace Main Tabs
 	$(".nav1").html("About");
@@ -84,9 +88,9 @@ $(document).ready(function(){
 	
 	//fill in sub-menu information
 	$("#menu0").html("<ul class='internalMenu1'><li><a href='http://www.nytimes.com/2013/05/11/business/how-cooper-unions-endowment-failed-in-its-mission.html?_r=0'>A New York Times Article Detailing<br>How We Got Into This Predicament</a></li> <li><a href='http://www.cusos.org/'>CUSOS.org</a></li> <li><a href='http://friendsofcooperunion.org/wp/wp-content/uploads/2012/03/CooperUnion_TheWayForward.pdf'>The Way Forward Plan</a></li></ul>");
-	$("#menu1").html("<ul class='internalMenu1'><li>something</li> <li>something else</li> <li>something something else</li></ul>");
+	$("#menu1").html("<ul class='internalMenu1'><ul></ul></ul>");
 	$("#menu2").html("<ul class='internalMenu1'><li><a href='http://en.wikipedia.org/wiki/Cooper_Union'>Cooper Union Wiki</a></li> <li><a href='http://en.wikipedia.org/wiki/Peter_Cooper'>Peter Cooper Bio</a></li>");
-	$("#menu3").html("<ul class='internalMenu1'><li>something</li> <li>something else</li> <li>something something else</li></ul>");
+	$("#menu3").html("<ul class='internalMenu1'><li><a href='http://whycooper.org/'>whycooper.org</a></li></ul>");
 	
 	$("#menu0").attr("style","width:210px");
 	$("#menu1").attr("style","width:233px; left: 341px");
@@ -95,9 +99,27 @@ $(document).ready(function(){
 	
 	});
 	
+	var twitterSearch = 'http://cooper-union-search-proxy.herokuapp.com/twitter/search/freecooperunion&?count=6';
 	
-	//establish location of image files
-	var chromeImages = chrome.extension.getURL("img/meow_berg_400800.png");
+	$.get(twitterSearch, function(response){
+		var tweetLoop = $.each(response.statuses, function(index, status) {
+			
+			var counter = $(status).attr("id", "tweet-"+index);
+			
+			
+			console.log(status);
+			var tweet= status.text;
+			console.log(tweet);
+			
+			
+			var tweetText= "<li>"+tweet+"</li>";
+			
+			$("#menu1 .internalMenu1").append(tweetText);
+		});
+	});
+	
+	
+	
 	
 	
 	//CATS TIMELINE!!!
@@ -125,7 +147,7 @@ $(document).ready(function(){
 			//3
 			{
 				"h1":"Board of Trustees Enact Yarn Program",
-				"content":"TBTL is fun. Yerps.",
+				"content":"To expedite the process of deciding the fate of The Cooper Union, the Board of Trustees have decided to install a curtain of yarn inside their boardroom, hopefully making the process of deliberation more enjoyable",
 				"more":"Meow",
 				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/yarn_400800.png"
 			},
@@ -242,7 +264,7 @@ $(document).ready(function(){
 			{},
 			{
 				"h2":"Faculties of Humanities and Social Sciences",
-				"h3":"Lecture Series: <em>Untying the Thread of Interconnection in Pynchon's</em> Gravity's Rainbow",
+				"h3":"Lecture Series: <em>Untying the Thread of Interconnection in Thomas Pynchon's</em> Gravity's Rainbow",
 				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/yarn_400800.png"
 			},
 		];
@@ -250,7 +272,7 @@ $(document).ready(function(){
 		
 		//change little images
 		$("#history .images img:nth-child(1)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/peter_cooper%20cat.png");
-
+		$("#history .images img:nth-child(4)").attr("src","https://raw.github.com/iankeliher/keliher_extension_final/master/img/abe-lincoln%20cat.png");
 		
 		
 		//define belt & loop thru
@@ -374,9 +396,9 @@ $(document).ready(function(){
 		//Upcoming Event Section
 		var dataSub = [
 			{
-				"h2":"Yarn Ball Play Session",
-				"h3":"A organized forum to discuss both the physical and philologic relationship of a paw to a ball of yarn",
-				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/yarn_86154.png"
+				"h2":"Reanimated Corpse of Evil Lincoln to Host Poetry Slam",
+				"h3":"Snacks will not be provided",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/Big_evillincoln.png"
 			},
 			{
 				"h2":"Mittens 'Collective Dreaming'",
