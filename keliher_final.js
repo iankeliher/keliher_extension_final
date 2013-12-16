@@ -300,9 +300,9 @@ $(document).ready(function(){
 			//3
 			{
 				"h1":"153rd Anniversary of Evil Lincoln's Speech in the Meh Hall",
-				"content":"This year we celebrate the 153rd year since the speech of Evil Lincoln had led to the eradication of Spotted Owl",
+				"content":"This year we celebrate the 153rd year since the speech of Evil Lincoln has led to the eradication of the Spotted Owl",
 				"more":"Evil",
-				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/yarn_400800.png"
+				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/Big_evillincoln.png"
 			},
 			//4
 			{
@@ -321,9 +321,9 @@ $(document).ready(function(){
 			//6
 			{
 				"h1":"Architecture and Urban Studies From A New Angle",
-				"content":"A chat with renowned architectural critic and theorist Mr. Jangles about his new book <em>Beyond Evil and Evil: Building Mandroid</em>",
+				"content":"A chat with renowned architectural critic and theorist Mr. Jangles about his new book <em>Deconstructing Architecture: Burn It Down</em>",
 				"more":"Evil",
-				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/Architecture_Cat.jpg"
+				"background":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/burning%20forest.png"
 			}
 		];
 
@@ -360,6 +360,7 @@ $(document).ready(function(){
 		$(".fancy-2 .body h1").attr("style", "color: white;");		
 		$(".fancy-5 .body h1").attr("style", "color: white;");
 		$(".fancy-0 .content p").attr("style", "color: white;");
+		$(".fancy-2 .content p").attr("style", "color: black;");
 	
 	
 	
@@ -400,8 +401,8 @@ $(document).ready(function(){
 		var beltElements = [
 			{
 				"h2":"Irwin S Chanin School of Architecture",
-				"h3":"Lecture on <em>Beyond Evil and Evil: Building Mandroid</em>",
-				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/Architecture_Cat.jpg"
+				"h3":"Lecture on <em>Deconstructing Architecture: Burn It Down</em>",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/burning%20forest.png"
 			},
 			{},
 			{
@@ -418,8 +419,8 @@ $(document).ready(function(){
 			{},
 			{
 				"h2":"Faculties of Humanities and Social Sciences",
-				"h3":"Lecture Series: <em>Enacting Eschaton</em>",
-				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/yarn_400800.png"
+				"h3":"Lecture Series: <em>Beyond Evil and Evil: Building Mandroid</em>",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/burning%20forest.png"
 			},
 		];
 		
