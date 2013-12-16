@@ -407,13 +407,13 @@ $(document).ready(function(){
 			{},
 			{
 				"h2":"School of Art",
-				"h3":"Senior Thesis Show: Sunbeams",
-				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_sunbeam86154.png"
+				"h3":"Senior Thesis Show: Dreaming of Destruction",
+				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cloud.jpg"
 			},
 			{},
 			{
 				"h2":"Albert Nerkin School of Engineering",
-				"h3":"Prof. Bananas takes top prize",
+				"h3":"Prof. Bananas takes top prize in Death Ray competition",
 				"image":"https://raw.github.com/iankeliher/keliher_extension_final/master/img/cat_helmet_250.png"
 			},
 			{},
