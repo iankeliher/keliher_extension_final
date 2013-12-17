@@ -1,7 +1,8 @@
 #EXPLORE MULTIPLE COOPER UNION TIMELINES
 
 ####There are two different timelines:
-##Cats *where people are replaced by cats*
+##Cats:
+*where people are replaced by cats*
 
 #######and
 
