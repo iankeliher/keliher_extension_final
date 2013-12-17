@@ -4,7 +4,7 @@
   "version": "0.0.1",  
   "content_scripts": [
     {
-      "matches": ["http://www.cooper.edu/*"],
+      "matches": ["http://*.cooper.edu/*"],
       "css": ["keliher_final.css"],
       "js": ["jquery.js", "keliher_final.js"]
     }
