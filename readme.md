@@ -18,5 +18,11 @@ The timeline **Evil** is an exploration of the Darkest Timeline, a place where p
 		* **FreeCooper Feed** section which contains the most recent 8 tweets from the Twitter API with search terms FreeCooper.
 		* **History** tab includes a link to the Cooper Union wiki and a Peter Cooper bio.
 		* The **Stuff to Look** At tab includes a link to whycooper.org.
-	* After clicking one of the timeline options
+	* After clicking one of the timeline options, the content on the page changes to suit that timeline.
+
+###Loose Explanation of How the Chrome Extension Works:
+Javascript is used to loop through four sections of the website (top nav, main nav, slides, upcoming events).
+Alternate content is then injected in based on the timeline (or lack thereof); the changes to both navigations remain through each.
+Each timeline constitutes a function held within a click event.
+
 	
