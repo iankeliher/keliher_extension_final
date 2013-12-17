@@ -1,11 +1,11 @@
 #EXPLORE MULTIPLE COOPER UNION TIMELINES
 
-####There are two different timelines:
-##Cats:
-where people are replaced by cats
+###There are two different timelines:
+*Cats
+*Evil
 
-######and
+The timeline "Cats" consists of a world in which all people have been replaced by (possibly sleepy) felines.
+The timeline "Evil" is an exploration of the Darkest Timeline, a place where possible dark events have been taken forward.
 
-##Evil:
-This is the Darkest Timeline where everything has gone as terribly as it could. (Not to be confused with a "bizarro world"-type universe where everything is the opposite--the Darkest Timeline is more like through a mirror, darkly). Oh and there's beards.
+######note: the Darkest Timeline is different from typical "bizarro-world" type scenarios of an inversion of reality. The Darkest Timeline makes it darker. There's a difference. Trust me.
 
